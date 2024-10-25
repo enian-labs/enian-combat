@@ -11,8 +11,8 @@ export default defineConfig({
          '@': path.resolve(__dirname, './src'),
       },
    },
-   base: './',
-   build:{
-      outDir:"./docs"
-   }
+   base: '/enian-combat.github.io/',
+   build: {
+      outDir: './docs',
+   },
 });
