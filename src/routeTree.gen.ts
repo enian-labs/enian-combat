@@ -21,31 +21,37 @@ import { Route as IndexImport } from './routes/index'
 // Create/Update Routes
 
 const SkillRoute = SkillImport.update({
+  id: '/skill',
   path: '/skill',
   getParentRoute: () => rootRoute,
 } as any)
 
 const QuestRoute = QuestImport.update({
+  id: '/quest',
   path: '/quest',
   getParentRoute: () => rootRoute,
 } as any)
 
 const OnboardingRoute = OnboardingImport.update({
+  id: '/onboarding',
   path: '/onboarding',
   getParentRoute: () => rootRoute,
 } as any)
 
 const MarketRoute = MarketImport.update({
+  id: '/market',
   path: '/market',
   getParentRoute: () => rootRoute,
 } as any)
 
 const InventoryRoute = InventoryImport.update({
+  id: '/inventory',
   path: '/inventory',
   getParentRoute: () => rootRoute,
 } as any)
 
 const IndexRoute = IndexImport.update({
+  id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
 } as any)
