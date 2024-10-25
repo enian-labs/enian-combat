@@ -83,7 +83,7 @@ function Dashboard() {
             <div className="flex flex-1 flex-col items-center justify-end">
                <div className="relative mb-4 w-full ty:mb-[1.375rem]">
                   <Image
-                     src="/assets/original/knight.svg"
+                     src="/enian-combat.github.io/assets/original/knight.svg"
                      alt="knight"
                      width={328}
                      height={323}

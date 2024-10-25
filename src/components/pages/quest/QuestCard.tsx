@@ -27,15 +27,15 @@ export default function QuestCard({
                         alt="mission"
                         src={
                            metadata.type === 'x'
-                              ? '/assets/quest/icon-x.svg'
-                              : '/assets/quest/icon-telegram.svg'
+                              ? '/enian-combat.github.io/assets/quest/icon-x.svg'
+                              : '/enian-combat.github.io/assets/quest/icon-telegram.svg'
                         }
                         className="size-[3.125rem]"
                      />
                   ) : (
                      <Image
                         alt="mission"
-                        src="/assets/quest/icon-other.svg"
+                        src="/enian-combat.github.io/assets/quest/icon-other.svg"
                         className="size-[3.125rem]"
                      />
                   )}
@@ -47,7 +47,7 @@ export default function QuestCard({
                   <div className="flex items-center text-sm font-bold">
                      <Image
                         alt="gold"
-                        src="/assets/resource/gold-raw.svg"
+                        src="/enian-combat.github.io/assets/resource/gold-raw.svg"
                         width={24}
                         height={24}
                         className="mr-1.5"

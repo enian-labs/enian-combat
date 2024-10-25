@@ -5,7 +5,7 @@ export default function ProfilBadge() {
    return (
       <div className="mb-2 flex items-center justify-between">
          <Image
-            src="/assets/profile-badge.svg"
+            src="/enian-combat.github.io/assets/profile-badge.svg"
             alt="profile"
             width={70}
             height={60}
@@ -14,7 +14,7 @@ export default function ProfilBadge() {
             <ResourceCard
                size={60}
                item={{
-                  img: '/assets/resource/gold.svg',
+                  img: '/enian-combat.github.io/assets/resource/gold.svg',
                   name: 'gold',
                   total: 9522000,
                }}

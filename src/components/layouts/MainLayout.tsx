@@ -7,7 +7,7 @@ export default function MainLayout({
    children,
    wrapperClassName,
    navClassName,
-   bgUrl = '/assets/background/bg-main.svg',
+   bgUrl = '/enian-combat.github.io/assets/background/bg-main.svg',
 }: {
    children: React.ReactNode;
    wrapperClassName?: string;

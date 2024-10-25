@@ -20,25 +20,25 @@ const farmingSkills: FarmingSkillDataItem[] = [
    {
       name: 'Lumberjack',
       level: 'max',
-      imageUrl: '/assets/original/resource/wood.svg',
+      imageUrl: '/enian-combat.github.io/assets/original/resource/wood.svg',
       benefit: '+800 Wood/8h',
       upgradeCost: 0,
    },
    {
       name: 'Miner',
       level: 20,
-      imageUrl: '/assets/original/resource/iron.svg',
+      imageUrl: '/enian-combat.github.io/assets/original/resource/iron.svg',
       benefit: '+500 Iron/8h',
       upgradeCost: 5000000,
    },
    {
       name: 'Skinner',
       level: 20,
-      imageUrl: '/assets/original/resource/leather.svg',
+      imageUrl: '/enian-combat.github.io/assets/original/resource/leather.svg',
       benefit: '+500 Leather/8h',
       upgradeCost: 5000000,
    },
-]
+];
 
 function Skill() {
    const [selectedTab, setSelectedTab] = useState(tabsMenu[0].key);
@@ -47,26 +47,26 @@ function Skill() {
       <MainLayout
          wrapperClassName="p-5 ty:gap-6 h-screen"
          navClassName="ty:pb-0"
-         bgUrl='/assets/background/forest.png'
+         bgUrl="/enian-combat.github.io/assets/background/forest.png"
       >
-         <div className="flex flex-col h-full gap-6">
+         <div className="flex h-full flex-col gap-6">
             <Menu
                menus={tabsMenu}
                selected={selectedTab}
                onSelected={(value) => setSelectedTab(value)}
                activeLayoutId="skill-menu"
             />
-            <div className='w-full h-full'>
+            <div className="h-full w-full">
                <FarmingSkillList
                   className={cn(
-                     selectedTab === tabsMenu[0].key ? "flex" : "hidden",
+                     selectedTab === tabsMenu[0].key ? 'flex' : 'hidden'
                   )}
                   data={farmingSkills}
-                  key='farming-skill-list'
+                  key="farming-skill-list"
                />
                <BattleSkillComingSoon
                   className={cn(
-                     selectedTab === tabsMenu[1].key ? "flex" : "hidden",
+                     selectedTab === tabsMenu[1].key ? 'flex' : 'hidden'
                   )}
                />
             </div>

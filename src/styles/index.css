@@ -28,7 +28,7 @@
    }
 
    .bg-splash {
-      @apply h-full bg-[url('/assets/splash-screen.svg')] bg-cover bg-center bg-no-repeat;
+      @apply h-full bg-[url('/enian-combat.github.io/assets/splash-screen.svg')] bg-cover bg-center bg-no-repeat;
    }
 
    /* bg in navigation */
